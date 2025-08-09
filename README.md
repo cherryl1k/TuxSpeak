@@ -7,3 +7,5 @@ to install run this command within your Tux's root directory: \
 you can change the words with the `vocab.yml` \
 to change the legnth of the message look for this line in `tuxspeak.py` \
 `wordcount = random.randint(10, 100)`
+
+<img width="716" height="375" alt="image" src="https://github.com/user-attachments/assets/85d7bbac-c3bd-428d-a3cc-74b1d061f761" />
