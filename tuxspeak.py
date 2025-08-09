@@ -29,7 +29,7 @@ class GodSpeak(commands.Cog):
             logger.error("vocab.yml must be a list.")
             return []
 
-        return [str(item) for item in raw_data]  # type: ignore (idk why it gives me an error but i don't care so)
+        return [str(item) for item in raw_data]  # type: ignore (idk why it gives me an error but i don't care nor does it break anything lol)
 
     @commands.hybrid_command(name="godspeak", aliases=["gs"], description="Receive a divine message.")
     @commands.guild_only()
