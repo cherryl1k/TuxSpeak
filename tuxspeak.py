@@ -32,7 +32,6 @@ class GodSpeak(commands.Cog):
         return [str(item) for item in raw_data]  # type: ignore (idk why it gives me an error but i don't care nor does it break anything lol)
 
     @commands.hybrid_command(name="godspeak", aliases=["gs"], description="Receive a divine message.")
-    @commands.guild_only()
     async def godspeak(self, ctx: commands.Context[Tux]) -> None:
         if not self.vocab:
             logger.error("No vocabulary check `vocab.yml`.")
