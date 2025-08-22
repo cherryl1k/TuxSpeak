@@ -1,5 +1,6 @@
 # TuxSpeak
-A Port of TempleOS's "GodSpeak" to https://github.com/allthingslinux/tux
+
+A Port of TempleOS's "GodSpeak" to <https://github.com/allthingslinux/tux>
 
 to install run this command within your Tux's root directory: \
 `git submodule add -f https://github.com/cherryl1k/TuxSpeak tux/extensions/TuxSpeak`
